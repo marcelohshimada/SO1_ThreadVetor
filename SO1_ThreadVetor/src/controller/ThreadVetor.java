@@ -27,7 +27,7 @@ public class ThreadVetor extends Thread {
 		}
 
 		double tempoFinal = System.nanoTime();
-		// ns -> s ==> / 10 ^ 9 ==> Math.pow(10, 9)
+//		 ns -> s ==> / 10 ^ 9 ==> Math.pow(10, 9)
 		double tempoTotal = (tempoFinal - tempoInicial) / (Math.pow(10, 9));
 		System.out.println("\nTempo c/ estrutura For ==> " + tempoTotal + "s");
 

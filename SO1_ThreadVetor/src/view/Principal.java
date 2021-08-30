@@ -32,12 +32,13 @@ public class Principal { // Chama as Threads
 		// Classe ThreadVetor
 		// Tratando-se de Threads sempre haverá a possibilidade de iniciar com 1 ou 2, aleatóriamente
 		
+		
 		// Inicia essa Thread com o numero 1 e verifica que é ímpar, logo executa Foreach
-		ThreadVetor tv1 = new ThreadVetor(vetor, 1);
+		Thread tv1 = new ThreadVetor(vetor, 1);
 		tv1.start();
 		
 		// Inicia essa Thread com o numero 2 e verifica que é par, logo executa For
-		ThreadVetor tv2 = new ThreadVetor(vetor, 2);
+		Thread tv2 = new ThreadVetor(vetor, 2);
 		tv2.start();
 		
 	}
