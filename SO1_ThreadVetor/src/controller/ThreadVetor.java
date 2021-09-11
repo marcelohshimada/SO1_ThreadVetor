@@ -33,6 +33,7 @@ public class ThreadVetor extends Thread {
 
 	}
 	
+	@SuppressWarnings("unused")
 	private void execForeach() {
 		double tempoInicial = System.nanoTime();
 		
